@@ -13,7 +13,7 @@ const DirectionStack = ({ category, setCategory, setSource }) => {
   const totalCount = categories.length + 1;
   const [current, setCurrent] = useState(1);
   const token =
-    "patwxGIW1IEy4obje.4698f2fae36a50dd8b00fb6335086193541405e1bf506bd86f8875db903e045d";
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
   const setCurrentPage = (page) => {
     if (page >= 1 && page <= totalCount - visibleCount + 1) setCurrent(page);
   };
@@ -21,7 +21,7 @@ const DirectionStack = ({ category, setCategory, setSource }) => {
     const fetchCategories = async () => {
       try {
         const response = await fetch(
-          "https://api.airtable.com/v0/appCkZvSU8PE6pKwN/tblsh9FVFPqqiUhHt",
+          "https://api.airtable.com/v0/xxxxxxxxxxxxxxxxxxxxxxxx_url",
           {
             method: "GET",
             headers: {
