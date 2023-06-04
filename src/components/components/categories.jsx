@@ -19,7 +19,7 @@ const DirectionStack = ({ category, setCategory, setSource }) => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch(`https://api.airtable.com/v0/${config}`, {
+        const response = await fetch(`https://api.airtable.com/v0/appCkZvSU8PE6pKwN/tblsh9FVFPqqiUhHt`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,
