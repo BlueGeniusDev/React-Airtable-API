@@ -18,11 +18,7 @@ export default function Compare() {
 
   const checkEmail = async (email) => {
     try {
-      const response = await fetch("http://127.0.0.1/wordpress/wp-login.php", {
-        method: "POST",
-        body: { log: email, pwd: "flyemirate615" },
-      });
-      const data = await response.json();
+      return true;
     } catch (error) {}
   };
   const confirmEmail = () => {
